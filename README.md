@@ -1,5 +1,5 @@
 # General Description
-This respitory contains a folder with 20 song lyrics of Coldplay in the format of txt, a corpus in CSV, a most-played list of Coldplay on Spotify in CSV, and a Jupyter Notebook file regarding the data scraping, cleaning, and tagging processes, aiming to display the process of creating a corpus.
+This respitory contains a folder with 20 song lyrics of Coldplay in the format of txt, a corpus in CSV, a most-played list of Coldplay on Spotify in CSV, and a Jupyter Notebook file regarding the data scraping, cleaning, and annotating processes, aiming to display the process of creating a corpus.
 
 # Purpose of the corpus
 This corpus is desinged for the exploration of the language style and emotional characteristics of the lyrics of Coldplay's top 20 most-played songs on Spotify until December 18, 2023 from the perspective of part-of-speech and lemmas.
