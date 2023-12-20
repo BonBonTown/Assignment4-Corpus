@@ -12,9 +12,9 @@ Kworb is a data-centric website providing up-to-date charts and analytics on mus
 The texts were extracted from LyricsFreak, a free platform allowing lyric enthusiasts to search, consult, and study lyrics from various songs.
 
 # Scraping (Collecting) Process
-- **Scraping the most-played list from Kworb**: Pandas, BeautifulSoup, Requests in Python was used to send requests to Kworb for ranked, structured data with song names, total streaming counting, and daily streaming counting of Coldplay's songs on Spotify until December 18, 2023. The structured data is saved as CSV format. 
+- **Scraping the most-played list from Kworb**: Pandas, Requests in Python was used to send requests to Kworb for ranked, structured data with song names, total streaming counting, and daily streaming counting of Coldplay's songs on Spotify until December 18, 2023. The structured data is saved as CSV format. 
 
-- **Scraping Lyrics**: Pandas, BeautifulSoup, Requests in Python was used to send requests to the LyricsFreak for lyrics of the top 20, and lyrics of each song is saved as a txt file.
+- **Scraping Lyrics**: BeautifulSoup, Requests in Python was used to send requests to the LyricsFreak for lyrics of the top 20, and lyrics of each song is saved as a txt file.
 
 # Cleaning Process
 - Removing noise and irrelavent information in brackets [ ]
